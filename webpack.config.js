@@ -16,7 +16,7 @@ module.exports = {
       './app/components',
     ],
     alias: {
-      ApplicationStyles: 'app/styles/app.scss',
+      ApplicationStyles: path.resolve(__dirname, './app/styles/app.scss'),
     },
     extensions: [
       '.js',
